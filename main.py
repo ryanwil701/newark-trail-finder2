@@ -47,4 +47,4 @@ def index(state: State) -> Page:
 
 assert_equal(index(State()), Page(State(), ["Hello World!"]))
 
-start_server(State())
+start_server(State([], 0, 0.0, ""))
